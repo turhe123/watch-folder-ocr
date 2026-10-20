@@ -1,0 +1,5 @@
+[
+  {"file":"01-settings.png","caption":"Each watched folder has its own rule, with output location, filename suffix, an optional plain text file and recognition settings.","alt":"WatchFolderOcr Settings window with the Scans watch rule selected"},
+  {"file":"02-processing-log.png","caption":"The processing log lists every converted file with its page count, duration and result.","alt":"Processing Log window showing three files converted successfully"},
+  {"file":"03-menu.png","caption":"From the menu bar you can see the status, pause watching, process folders now, or open the log and settings.","alt":"WatchFolderOcr menu bar menu"}
+]

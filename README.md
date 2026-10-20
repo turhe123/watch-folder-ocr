@@ -1,5 +1,7 @@
 # WatchFolderOcr
 
+**🌐 Website:** [turhe123.github.io/watch-folder-ocr](https://turhe123.github.io/watch-folder-ocr/)
+
 Watch a folder and automatically turn every dropped scan or image into a searchable PDF with a text layer.
 
 ![macOS 14+](https://img.shields.io/badge/macOS-14%2B-blue)
@@ -31,7 +33,17 @@ Scanner output and phone photos are usually not searchable, and many people don'
 
 ## Screenshots
 
-_Screenshots coming soon._
+<p align="center"><img src="docs/screenshots/01-settings.png" alt="WatchFolderOcr Settings window with the Scans watch rule selected" width="720"></p>
+
+<p align="center"><em>Each watched folder has its own rule, with output location, filename suffix, an optional plain text file and recognition settings.</em></p>
+
+<p align="center"><img src="docs/screenshots/02-processing-log.png" alt="Processing Log window showing three files converted successfully" width="560"></p>
+
+<p align="center"><em>The processing log lists every converted file with its page count, duration and result.</em></p>
+
+<p align="center"><img src="docs/screenshots/03-menu.png" alt="WatchFolderOcr menu bar menu" width="560"></p>
+
+<p align="center"><em>From the menu bar you can see the status, pause watching, process folders now, or open the log and settings.</em></p>
 
 ## Install
 

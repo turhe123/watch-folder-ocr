@@ -1,0 +1,24 @@
+{
+  "seo_title": "Watch folder OCR for macOS",
+  "seo_description": "Free, open-source macOS menu bar app that watches folders and turns scans and images into searchable PDFs, on-device with Apple Vision. No uploads.",
+  "hero_title_line1": "Drop a scan.",
+  "hero_title_accent": "Get a searchable PDF.",
+  "hero_sub": "WatchFolderOcr lives in your menu bar, watches the folders you choose, and adds an invisible text layer to every new PDF or image using Apple Vision. Nothing leaves your Mac.",
+  "features_title": "Quiet OCR, done locally.",
+  "features_sub": "Point it at a folder once and it handles the rest in the background.",
+  "features": [
+    {"icon": "folder", "title": "Per-folder watch rules", "desc": "Each rule has its own input folder, output location, filename suffix and recognition settings. Output goes next to the original or to a separate folder."},
+    {"icon": "text", "title": "Real, searchable text layer", "desc": "The original page image is kept and an invisible text layer is added, so Spotlight and Preview can search and select the words. An optional plain text file can be written alongside."},
+    {"icon": "eye", "title": "Apple Vision recognition", "desc": "Choose Fast or Accurate, toggle language correction, and pick languages from the list Vision supports. Leave them unchecked to detect the language automatically."},
+    {"icon": "shield", "title": "Safe with your originals", "desc": "Output is written to a temporary file and moved into place, so a failure never leaves a partial PDF. Originals are only trashed if you turn that on, and go to the Trash, not oblivion."},
+    {"icon": "clock", "title": "Waits for finished files", "desc": "Folders are scanned every 3 seconds, and a file is processed only once its size and date are stable. Existing files are left alone until you choose Process Now."},
+    {"icon": "lock", "title": "Private, no network", "desc": "It uses only Apple frameworks, has no analytics and makes no network connections. PDFs that already contain text and password-protected PDFs are logged as skipped."}
+  ],
+  "permissions_step": "No special permissions are required; you only choose the folders to watch in a standard open panel, and \"Launch at login\" is optional under System Settings > General > Login Items.",
+  "faq": [
+    {"q": "Is WatchFolderOcr really free and open source?", "a": "Yes. It is released under the MIT license and the full source is on GitHub. There are no ads, accounts or paid tiers; an optional Support button links to Ko-fi if you want to chip in."},
+    {"q": "What permissions does it need?", "a": "None beyond the folders you pick. It does not request Accessibility, Screen Recording, Microphone or Camera access. If you enable Launch at login, it registers as a login item that you can review in System Settings."},
+    {"q": "Where is my data stored?", "a": "Your documents stay in the folders you choose, and converted files are written to the output location you set. Watch rules and folder bookmarks are kept in the app's UserDefaults on your Mac, and the log shows your last 500 files."},
+    {"q": "Why isn't the app notarized?", "a": "Notarization requires a paid Apple Developer account, and this is a free project. Right-click the app and choose Open once to get past Gatekeeper, or build it yourself from source with Xcode."}
+  ]
+}
